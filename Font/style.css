@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main{
+    border: 5px solid black;
+    width: 30%;
+    margin: 1px auto;
+    padding: 1%;
+}
+h1{
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px;
+    font-size: 32 px;
+}
+.sub-heading span{
+    display:inline-block;
+    width: 49.3%;
+}
+.sub-heading span:last-child{
+    text-align: right;
+}
+.divider{
+    height: 10px;
+    background-color: black;
+    margin:5px 0;
+}
+.small-divider
+{ height: 5px;
+    background-color: black;
+    margin:5px 0;
+
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.bold{
+    font-weight: 800;
+}
+.note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+    padding: 0 8px;
+    text-indent: -8px;
+}
+p{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
